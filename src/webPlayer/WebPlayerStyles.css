@@ -1,0 +1,468 @@
+.WebPlayer_leftPanel{
+    position: relative;
+    left:0;
+    top:0;
+    height:493px;
+    padding-top:24px;
+    width:282px!important;
+    color: #b3b3b3;
+    text-transform: none;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+}
+
+.WebPlayer_leftPanel_brand{
+    display:flex;
+    margin-left:10%;
+    height:63px;
+    margin-bottom: 10px;
+}
+
+.brand_name{
+    color:white;
+    font-weight: 700;
+    font-size:28px;
+    vertical-align: middle;
+    padding-top:5px;
+    margin-left:5px;
+    padding-bottom:5px;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.WebPlayer_leftPanel_List{
+    margin-left:8px;
+    margin-right:8px;
+    height:40px;
+    display: flex;
+    text-align: center;
+    color:#b3b3b3;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.WebPlayer_leftPanel_List_Link{
+    padding-left:16px;
+    padding-right:16px;
+    font-size:14px;
+    font-weight: 900;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top:auto;
+    margin-bottom: auto;
+    color:#b3b3b3;
+}
+
+.WebPlayer_leftPanel_List_Link:hover{
+    text-decoration-color: transparent;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.WebPlayer_leftPanel_List:hover .WebPlayer_leftPanel_List_Option{
+    color:white;
+}
+
+.WebPlayer_leftPanel_List_Icon{
+    margin-right:16px;
+    width:24px;
+    height:24px;
+    display:inline-block;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+
+.WebPlayer_leftPanel_PlaylistSection{
+    display: block;
+    margin-top:20px;
+    color:#b3b3b3;
+    padding-left:8px;
+    padding-right:8px;
+}
+
+.WebPlayer_leftPanel_PlaylistSection label{
+    display: inline-block;
+    margin-left:8px;
+    margin-right:8px;
+    padding-left:16px;
+    padding-right:16px;
+    padding-bottom:20px;
+}
+
+.WebPlayer_leftPanel_PlaylistSection_List{
+    display: flex;
+    margin-top:10px;
+    margin-bottom: 10px;
+    padding-left:21px;
+    padding-right:21px;
+    cursor:pointer;
+}
+
+.WebPlayer_leftPanel_PlaylistSection_List:hover .WebPlayer_leftPanel_PlaylistSection_List span{
+    color: white;
+}
+
+.WebPlayer_leftPanel_PlaylistSection_List_svg{
+    width:32px;
+    height:32px;
+    margin-right: 16px;
+}
+
+.WebPlayer_Footer{
+    background-color: #282828!important;
+    height:90px;
+    padding-left:16px;
+    padding-right:16px;
+    border: solid 1px black;
+    border-right:0px;
+    border-left:0px;
+    display:flex;
+    padding-top:24px;
+    padding-left:16px;
+    padding-right:16px;
+}
+
+.WebPlayer_Footer_musicDetails{
+    width:400px;
+    height:56px;
+    vertical-align: baseline;
+    float:left;
+    display: flex;
+}
+
+.WebPlayer_Footer_musicDetails_img{
+    position: relative;
+    width:56px;
+    height:56px;
+}
+
+.WebPlayer_Footer_musicDetails_img_src{
+    object-fit: cover;
+    width:56px;
+    height:56px;
+    margin-right:10px;
+}
+
+.WebPlayer_Footer_musicDetails_Topic{
+    color:white;
+    font-size:14px;
+    position: relative;
+    font-weight: 600;
+    margin-left:14px;
+    margin-right:14px;
+}
+
+.WebPlayer_Footer_musicDetails_Heart, .WebPlayer_Footer_musicDetails_window{
+    width:40px;
+    height:40px;
+    color:white;
+    display: inline-block;
+    margin-top:15px;
+}
+
+.WebPlayer_Footer_playerControl{
+    width:533px;
+    height:60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.WebPlayer_Footer_playerControl_Controls{
+    display: flex;
+    justify-content: center;
+    color:#B3B3B3;
+    cursor: pointer;
+}
+
+.WebPlayer_Footer_playerControl_slider{
+    display: flex;
+    position: relative;
+    height:100%;
+    width:100%;
+    color:#B3B3B3;
+}
+
+#PLayer_Slider{
+    background-color:#B3B3B3;
+}
+
+.WebPlayer_Footer_barRight{
+    position: absolute;
+    right:0;
+    height:32px;
+    float: right;
+    display: flex;
+    color: #b3b3b3;
+    justify-content: end;
+    margin-left: 148px;
+}
+
+.WebPlayer_leftPanel_Install_btn{
+    vertical-align: baseline;
+    align-items: flex-end;
+    display: flex;
+    margin-right:8px;
+    margin-left:8px;
+    padding-left:21px;
+    padding-right:21px;
+    font-weight:900;
+    position: relative;
+    top:13%;
+    cursor: pointer;
+}
+
+.Player_Header{
+    position: fixed;
+    float: right;
+    width: 1090px;
+    margin-left:0px;
+    opacity: 1;
+    height: 60px;
+    background-color: black;
+    padding:15px;
+    padding-right:20px;
+    z-index: 1000;
+}
+
+.Player_Header_Navigate{
+    display:flex;
+    justify-content: space-around;
+}
+
+.Player_Header_Navigate img{
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.Player_Header_UserandOption{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Player_Header_UserandOption .Player_Header_UserandOption_upgradeBtn{
+    border:solid 2px #A5A5A5;
+    border-radius: 30px;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-right: 34px;
+    padding-left:34px;
+    font-size:12px;
+    color:white;
+    background-color: #000000B3;
+    font-weight: 900;
+    cursor:pointer;
+    margin-right:16px;
+    height:37px;
+}
+
+.Player_Header_UserandOption .Player_Header_UserandOption_upgradeBtn:hover{
+    transform: scale(1.06);
+}
+
+.Player_Header_UserandOption .Player_Header_UserandOption_Profile{
+    height:30px!important;
+    padding:2px;
+    border-radius: 30px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .015em;
+    color:white;
+    margin-top:2px;
+    cursor:pointer;
+}
+
+.Player_Header_UserandOption .Player_Header_UserandOption_Profile:hover{
+    background-color: #333333;
+}
+
+.Player_Header_UserandOption_Profile .Player_Header_UserandOption_Profile_img{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    background-color: #333333;
+    padding:2px;
+    padding-left: 4px;
+    display:inline-block;
+    margin-right:10px;
+    margin-top:-5px;
+}
+
+.Player_Header_popupMenu{
+    display: block;
+    background-color: #333333;
+    list-style:none;
+    position: absolute;
+    margin-top: 3.2%;
+    margin-left:13.5%;
+    z-index:1000;
+}
+
+.Player_Header .Player_Header_popupMenu .Player_Header_popupMenu_Link{
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:7px;
+    text-align: left;
+    padding-bottom:3px;
+    color: rgb(179,179,179);
+    cursor: default;
+    font-weight: bold;
+    height:38px;
+    vertical-align: middle;
+}
+
+.Player_Header .Player_Header_popupMenu .Player_Header_popupMenu_Link:hover{
+    color:white;
+    background-color: #555555;
+}
+
+.hr_divider{
+    border-bottom:solid 1px rgb(177,177,177); 
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top:none;
+    margin:0px;
+}
+
+/* MusicLists.js */
+
+.MusicCollection{
+    background-color: #121212;
+    overflow: scroll;
+    overflow-x: hidden;
+    /* padding-top: 90px; */
+}
+
+.MusicLists_Container{
+    position: relative;
+    width: 1090px;
+    height:493px;
+    padding-left:20px;
+    padding-right:20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.MusicLists_Container_Wrapper:nth-child(1){
+    padding-top:90px;
+}
+
+.MusicLists_Container_Wrapper{
+    /* padding-top:30px; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-bottom:30px;
+}
+
+.MusicCollection_label{
+    font-size:24px;
+    color:white;
+    font-weight:900;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.MusicCollection_seeAll_link{
+    color:#B3B3B3;
+    font-size:12px;
+    float:right;
+    font-weight:900;
+    cursor:pointer;
+    vertical-align: middle;
+    margin-top:30px;
+    margin-bottom:auto;
+}
+
+.MusicCollection_seeAll_link:hover{
+    color: #B3B3B3;
+}
+
+.MusicCollection_Wrapper{
+    display: grid;
+    grid-template-columns: repeat(6,158px);
+    grid-gap: 16px;
+}
+
+.MusicCollection_Wrapper_Card{
+    position: relative;
+    background-color: #282828;
+    color:black;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    padding:16px;
+    padding-bottom:16px!important;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    height:239px;
+}
+
+.MusicCollection_Wrapper_Card_Img{
+    width:125px;
+    height:125px;
+    margin-bottom: 16px;
+}
+
+.MusicCollection_Wrapper_Card_Topic{
+    font-size:16px;
+    color:white;
+    font-weight:700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.MusicCollection_Wrapper_Card_Description{
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top:4px;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: normal;
+    text-transform: none;
+    color:#b3b3b3;
+    height:35px;
+    width:124px;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.MusicCollection_Wrapper_Card_Description span{
+    white-space: normal;
+    vertical-align: baseline;
+    line-height: 16px;
+    letter-spacing: normal;
+    text-transform: none;
+}
+
+.MusicCollection_Wrapper_Card_playButton{
+    visibility: hidden;
+    position: absolute;
+    bottom:10px;
+    right:10px;
+    height:40px!important;
+    width:40px!important;
+    background-color: #1db954;
+    border-radius: 50%;
+    cursor: default;
+    padding: 11px 14px;
+    text-align: center;
+}
+
+.MusicCollection_Wrapper_Card:hover .MusicCollection_Wrapper_Card_playButton{
+    visibility: visible;
+}
+
+.MusicCollection_Wrapper_Card_playButton:hover{
+    transform: scale(1.06);
+}

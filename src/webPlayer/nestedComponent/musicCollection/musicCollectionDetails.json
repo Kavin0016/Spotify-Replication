@@ -1,0 +1,84 @@
+[
+    {
+        "topLabel": "Podcasts to try",
+        "cards": [
+            {
+                "id":"1-1",
+                "title": "PURIJAGANATH",
+                "description":"purijaganath",
+                "img": "PURIJAGAANDHA.jpeg"
+            },
+            {
+                "id":"1-2",
+                "title": "Maha Bharath With ....",
+                "description": "Spotify Studios",
+                "img": "MAHA_BHARATH_WITH_DHURAV.jpeg"
+            },
+            {
+                "id":"1-3",
+                "title": "The Ranveer Shoot ...",
+                "description": "BeerBiceps aka Ranveer Allahbadia",
+                "img": "THE_RANVEER_SHOW.jpeg"
+            },
+            {
+                "id":"1-4",
+                "title": "Nas Talks",
+                "description": "Nas Studios/Spotify Studios",
+                "img": "NAS_TALKS.jpeg"
+            },
+            {
+                "id":"1-5",
+                "title": "Bashkar Bose",
+                "description": "Spotify Studios",
+                "img": "BHASKAR_BOSE.jpeg"
+            },
+            {
+                "id":"1-6",
+                "title": "22 Yarns With Ga..",
+                "description": "Spotify Studios",
+                "img": "22_YARNS.jpeg"
+            }
+        ]
+    },
+    {
+        "topLabel": "Charts",
+        "cards":[
+            {
+                "id":"2-1",
+                "title": "India Top 50",
+                "description": "Your daily updates of most played tracks in.. ",
+                "img": "REGIONAL_IN_DEFAULT.jpg"
+            },
+            {
+                "id":"2-2",
+                "title": "Top Hits - Tamil",
+                "description": "Catch the top hits from Kollywood! Cover:AR ...",
+                "img": "TOP_HITS_TAMIL.jpeg"
+            },
+            {
+                "id":"2-3",
+                "title": "Global Top 50",
+                "description": "Your daily updates of most played tracks in.. ",
+                "img": "REGIONAL_GLOBAL_DEFAULT.jpg"
+            },
+            {
+                "id":"2-4",
+                "title": "Top hits - Hindi",
+                "description": "Tune into thr hottest Hindi songs ...",
+                "img": "TOP_HITS_HINDI.jpeg"
+            },
+            {
+                "id":"2-5",
+                "title": "Top hits - Telugu",
+                "description": "Tune into the Top track from Tollywood! Cover...",
+                "img": "TOP_HITS_TELUGU.jpeg"
+            },
+            {
+                "id":"2-6",
+                "title": "Top hits - Punjabi",
+                "description": "Catch the hottest Punjabi Songs.Cover...",
+                "img": "REGIONAL_GLOBAL_DEFAULT.jpg"
+            }
+        ]
+    }
+]

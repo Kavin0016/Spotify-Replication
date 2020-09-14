@@ -1,0 +1,43 @@
+Link{
+  text-decoration:none;
+  text-transform: none;
+}
+
+Link:hover{
+  text-decoration:none;
+  text-transform: none;
+}
+
+Link:active{
+  text-decoration:none;
+  text-transform: none;
+}
+
+Link span{
+  text-decoration:none;
+  text-transform: none;
+}
+
+Link span:hover{
+  text-decoration:none;
+  text-transform: none;
+}
+
+Link span:active{
+  text-decoration:none;
+  text-transform: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color:#121212;
+  padding-left:50px;
+  padding-right:50px;
+  z-index: -2;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsla(0,0%,100%,.3);
+  width:10px;
+  z-index: -2;
+}
